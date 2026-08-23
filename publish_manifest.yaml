@@ -1,5 +1,4 @@
-status: pending_push
-repository: ''
+status: ready_to_push
+repository: https://github.com/tcs-sdlc-ai-assist/dev-smoke-20260823-105017-b0df
 branch: main
-commit: bca0de3
-notes: Local feature commit contains the verified banking application and test evidence. Update repository after git_push succeeds.
+notes: Final verification includes backend APIs, frontend components, production build, and four live Playwright journeys.

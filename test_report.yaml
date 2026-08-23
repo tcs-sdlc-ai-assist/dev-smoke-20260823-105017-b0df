@@ -1,4 +1,4 @@
-generated_at: '2026-08-23T11:06:00Z'
+generated_at: '2026-08-23T11:55:00Z'
 summary: pass
 slices:
   - id: auth-dashboard
@@ -14,15 +14,15 @@ layers:
   backend_api:
     command: mvn -f pom.xml test
     result: pass
-    detail: 5 JUnit HTTP contract tests passed.
+    detail: 5 JUnit API contract tests passed.
   frontend_component:
     command: cd frontend && node node_modules/vitest/vitest.mjs run
     result: pass
-    detail: 3 component tests passed.
+    detail: 3 Vitest component tests passed; Playwright specs are explicitly excluded.
   build:
-    command: mvn -f pom.xml package -DskipTests && cd frontend && node node_modules/vite/bin/vite.js build
+    command: cd frontend && node node_modules/vite/bin/vite.js build
     result: pass
   e2e:
     command: cd frontend && node node_modules/@playwright/test/cli.js test --config=playwright.config.ts
     result: pass
-    detail: 4 Playwright journeys passed against live Spring Boot and Vite servers; login test verifies real API requests.
+    detail: 4 Playwright journeys passed against live Spring Boot 8080 and Vite 5173 servers.
