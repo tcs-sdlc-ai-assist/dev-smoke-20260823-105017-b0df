@@ -1,0 +1,490 @@
+{
+  "communities": {
+    "0": [
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_account",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_beneficiary",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_card",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_seeddata",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_ticket",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_tx",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_java_responseentity",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_statementcontroller",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_statementcontroller_csv",
+      "backend_src_main_java_com_ansh_bank_statement_controller_statementcontroller_statementcontroller_statementcontroller",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice_supportservice",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_java_postmapping",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_java_response",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_transactioncontroller",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_transactioncontroller_all",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_transactioncontroller_transactioncontroller",
+      "backend_src_main_java_com_ansh_bank_transaction_controller_transactioncontroller_transactioncontroller_transfer",
+      "backend_src_main_java_com_ansh_bank_transaction_dto_transactiondtos",
+      "backend_src_main_java_com_ansh_bank_transaction_dto_transactiondtos_response",
+      "backend_src_main_java_com_ansh_bank_transaction_dto_transactiondtos_transactiondtos",
+      "backend_src_main_java_com_ansh_bank_transaction_dto_transactiondtos_transactiondtos_transactiondtos",
+      "backend_src_main_java_com_ansh_bank_transaction_dto_transactiondtos_transferrequest",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_java_response",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_transactionservice",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_transactionservice_all",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_transactionservice_transactionservice",
+      "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_transactionservice_transfer"
+    ],
+    "1": [
+      "frontend_src_api_client",
+      "frontend_src_api_client_api",
+      "frontend_src_app",
+      "frontend_src_app_app",
+      "frontend_src_components_appshell",
+      "frontend_src_components_appshell_appshell",
+      "frontend_src_components_ui",
+      "frontend_src_components_ui_badge",
+      "frontend_src_components_ui_button",
+      "frontend_src_components_ui_card",
+      "frontend_src_features_auth_auth_test",
+      "frontend_src_features_auth_loginpage",
+      "frontend_src_features_auth_loginpage_loginpage",
+      "frontend_src_features_beneficiaries_beneficiariespage",
+      "frontend_src_features_beneficiaries_beneficiariespage_beneficiariespage",
+      "frontend_src_features_cards_cards_test",
+      "frontend_src_features_cards_cards_test_mocks",
+      "frontend_src_features_cards_cardspage",
+      "frontend_src_features_cards_cardspage_cardspage",
+      "frontend_src_features_dashboard_dashboardpage",
+      "frontend_src_features_dashboard_dashboardpage_dashboardpage",
+      "frontend_src_features_statements_statementspage",
+      "frontend_src_features_statements_statementspage_statementspage",
+      "frontend_src_features_support_supportpage",
+      "frontend_src_features_support_supportpage_supportpage",
+      "frontend_src_features_transfers_transferpage",
+      "frontend_src_features_transfers_transferpage_transferpage",
+      "frontend_src_features_transfers_transfers_test",
+      "frontend_src_main",
+      "frontend_src_types",
+      "frontend_src_types_account",
+      "frontend_src_types_beneficiary",
+      "frontend_src_types_card",
+      "frontend_src_types_ticket",
+      "frontend_src_types_transaction"
+    ],
+    "2": [
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_authcontroller",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_authcontroller_authcontroller",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_authcontroller_login",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_java_postmapping",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_auth_controller_authcontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_auth_dto_authdtos",
+      "backend_src_main_java_com_ansh_bank_auth_dto_authdtos_authdtos",
+      "backend_src_main_java_com_ansh_bank_auth_dto_authdtos_authdtos_authdtos",
+      "backend_src_main_java_com_ansh_bank_auth_dto_authdtos_loginrequest",
+      "backend_src_main_java_com_ansh_bank_auth_dto_authdtos_loginresponse",
+      "backend_src_main_java_com_ansh_bank_auth_service_authservice",
+      "backend_src_main_java_com_ansh_bank_auth_service_authservice_authservice",
+      "backend_src_main_java_com_ansh_bank_auth_service_authservice_authservice_authservice",
+      "backend_src_main_java_com_ansh_bank_auth_service_authservice_authservice_login",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata",
+      "backend_src_main_java_com_ansh_bank_common_config_seeddata_seeddata_validuser",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtauthfilter",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtauthfilter_jwtauthfilter",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtauthfilter_jwtauthfilter_dofilter",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtauthfilter_jwtauthfilter_jwtauthfilter",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtservice",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtservice_jwtservice",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtservice_jwtservice_issue",
+      "backend_src_main_java_com_ansh_bank_common_security_jwtservice_jwtservice_valid",
+      "filter",
+      "filterchain",
+      "org_springframework_stereotype_component",
+      "servletrequest",
+      "servletresponse"
+    ],
+    "3": [
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller_add",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller_all",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller_beneficiarycontroller",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller_verify",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_createrequest",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_postmapping",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_response",
+      "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_beneficiary_dto_beneficiarydtos",
+      "backend_src_main_java_com_ansh_bank_beneficiary_dto_beneficiarydtos_beneficiarydtos",
+      "backend_src_main_java_com_ansh_bank_beneficiary_dto_beneficiarydtos_beneficiarydtos_beneficiarydtos",
+      "backend_src_main_java_com_ansh_bank_beneficiary_dto_beneficiarydtos_createrequest",
+      "backend_src_main_java_com_ansh_bank_beneficiary_dto_beneficiarydtos_response",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice_add",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice_all",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice_beneficiaryservice",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice_map",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice_verify",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_java_createrequest",
+      "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_java_response",
+      "beneficiary"
+    ],
+    "4": [
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_createrequest",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_postmapping",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_response",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_supportcontroller",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_supportcontroller_add",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_supportcontroller_all",
+      "backend_src_main_java_com_ansh_bank_support_controller_supportcontroller_supportcontroller_supportcontroller",
+      "backend_src_main_java_com_ansh_bank_support_dto_supportdtos",
+      "backend_src_main_java_com_ansh_bank_support_dto_supportdtos_createrequest",
+      "backend_src_main_java_com_ansh_bank_support_dto_supportdtos_response",
+      "backend_src_main_java_com_ansh_bank_support_dto_supportdtos_supportdtos",
+      "backend_src_main_java_com_ansh_bank_support_dto_supportdtos_supportdtos_supportdtos",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_java_createrequest",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_java_response",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice_add",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice_all",
+      "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice_map",
+      "org_springframework_stereotype_service",
+      "ticket"
+    ],
+    "5": [
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_cardcontroller",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_cardcontroller_all",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_cardcontroller_block",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_cardcontroller_cardcontroller",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_cardcontroller_unblock",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_java_postmapping",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_java_response",
+      "backend_src_main_java_com_ansh_bank_card_controller_cardcontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_card_dto_carddtos",
+      "backend_src_main_java_com_ansh_bank_card_dto_carddtos_carddtos",
+      "backend_src_main_java_com_ansh_bank_card_dto_carddtos_carddtos_carddtos",
+      "backend_src_main_java_com_ansh_bank_card_dto_carddtos_response",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice_all",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice_cardservice",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice_map",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice_set",
+      "backend_src_main_java_com_ansh_bank_card_service_cardservice_java_response",
+      "card"
+    ],
+    "6": [
+      "backend_src_test_java_com_ansh_bank_authaccountapitest",
+      "backend_src_test_java_com_ansh_bank_authaccountapitest_authaccountapitest",
+      "backend_src_test_java_com_ansh_bank_authaccountapitest_authaccountapitest_loginthenfetchaccounts",
+      "backend_src_test_java_com_ansh_bank_authaccountapitest_java_test",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_cardsupportapitest",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_cardsupportapitest_blockscardandcreatesticket",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_cardsupportapitest_downloadsstatement",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_cardsupportapitest_headers",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_cardsupportapitest_url",
+      "backend_src_test_java_com_ansh_bank_cardsupportapitest_java_httpheaders",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_java_httpheaders",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_transferbeneficiaryapitest",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_transferbeneficiaryapitest_createsbeneficiaryandtransfersfunds",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_transferbeneficiaryapitest_headers",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_transferbeneficiaryapitest_rejectsinsufficientfunds",
+      "backend_src_test_java_com_ansh_bank_transferbeneficiaryapitest_transferbeneficiaryapitest_url",
+      "org_junit_jupiter_api_test",
+      "org_springframework_boot_test_context_springboottest",
+      "org_springframework_boot_test_web_client_testresttemplate",
+      "org_springframework_http_httpheaders"
+    ],
+    "7": [
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_jsdom",
+      "frontend_package_devdependencies_playwright_test",
+      "frontend_package_devdependencies_testing_library_jest_dom",
+      "frontend_package_devdependencies_testing_library_react",
+      "frontend_package_devdependencies_testing_library_user_event",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_types_react_dom",
+      "frontend_package_devdependencies_typescript",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitest",
+      "jsdom",
+      "playwright_test",
+      "testing_library_jest_dom",
+      "testing_library_react",
+      "testing_library_user_event",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "vite",
+      "vitest"
+    ],
+    "8": [
+      "frontend_tsconfig",
+      "frontend_tsconfig_compileroptions",
+      "frontend_tsconfig_compileroptions_allowjs",
+      "frontend_tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "frontend_tsconfig_compileroptions_esmoduleinterop",
+      "frontend_tsconfig_compileroptions_isolatedmodules",
+      "frontend_tsconfig_compileroptions_jsx",
+      "frontend_tsconfig_compileroptions_lib",
+      "frontend_tsconfig_compileroptions_module",
+      "frontend_tsconfig_compileroptions_moduleresolution",
+      "frontend_tsconfig_compileroptions_noemit",
+      "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "frontend_tsconfig_compileroptions_skiplibcheck",
+      "frontend_tsconfig_compileroptions_strict",
+      "frontend_tsconfig_compileroptions_target",
+      "frontend_tsconfig_compileroptions_usedefineforclassfields",
+      "frontend_tsconfig_include",
+      "ref_dom",
+      "ref_es2020",
+      "ref_src"
+    ],
+    "9": [
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_accountcontroller",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_accountcontroller_accountcontroller",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_accountcontroller_list",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_java_getmapping",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_java_requestmapping",
+      "backend_src_main_java_com_ansh_bank_account_controller_accountcontroller_java_restcontroller",
+      "backend_src_main_java_com_ansh_bank_account_dto_accountdtos",
+      "backend_src_main_java_com_ansh_bank_account_dto_accountdtos_accountdtos",
+      "backend_src_main_java_com_ansh_bank_account_dto_accountdtos_accountdtos_accountdtos",
+      "backend_src_main_java_com_ansh_bank_account_dto_accountdtos_accountresponse",
+      "backend_src_main_java_com_ansh_bank_account_service_accountservice",
+      "backend_src_main_java_com_ansh_bank_account_service_accountservice_accountservice",
+      "backend_src_main_java_com_ansh_bank_account_service_accountservice_accountservice_accountservice",
+      "backend_src_main_java_com_ansh_bank_account_service_accountservice_accountservice_all"
+    ],
+    "10": [
+      "axios",
+      "frontend_package",
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_axios",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_vitejs_plugin_react",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_test",
+      "react",
+      "react_dom",
+      "vitejs_plugin_react"
+    ],
+    "11": [
+      "backend_src_main_java_com_ansh_bank_common_exception_apiexception",
+      "backend_src_main_java_com_ansh_bank_common_exception_apiexception_apiexception",
+      "backend_src_main_java_com_ansh_bank_common_exception_apiexception_apiexception_apiexception",
+      "backend_src_main_java_com_ansh_bank_common_exception_globalexceptionhandler",
+      "backend_src_main_java_com_ansh_bank_common_exception_globalexceptionhandler_globalexceptionhandler",
+      "backend_src_main_java_com_ansh_bank_common_exception_globalexceptionhandler_globalexceptionhandler_handle",
+      "backend_src_main_java_com_ansh_bank_common_exception_globalexceptionhandler_java_responseentity",
+      "exceptionhandler",
+      "restcontrolleradvice"
+    ],
+    "12": [
+      "backend_src_main_java_com_ansh_bank_anshbankapplication",
+      "backend_src_main_java_com_ansh_bank_anshbankapplication_anshbankapplication",
+      "backend_src_main_java_com_ansh_bank_anshbankapplication_anshbankapplication_main",
+      "org_springframework_boot_autoconfigure_springbootapplication"
+    ],
+    "13": [
+      "backend_src_main_java_com_ansh_bank_common_security_securityconfig",
+      "backend_src_main_java_com_ansh_bank_common_security_securityconfig_securityconfig",
+      "org_springframework_context_annotation_configuration"
+    ],
+    "14": [
+      "e2e_auth_dashboard_spec"
+    ],
+    "15": [
+      "e2e_cards_support_statements_spec"
+    ],
+    "16": [
+      "e2e_transfers_beneficiaries_spec"
+    ],
+    "17": [
+      "frontend_e2e_auth_dashboard_spec"
+    ],
+    "18": [
+      "frontend_e2e_cards_support_statements_spec"
+    ],
+    "19": [
+      "frontend_e2e_transfers_beneficiaries_spec"
+    ],
+    "20": [
+      "frontend_playwright_config"
+    ],
+    "21": [
+      "frontend_src_vite_env_d"
+    ],
+    "22": [
+      "frontend_vite_config"
+    ],
+    "23": [
+      "pkg_com_ansh_ansh_bank"
+    ],
+    "24": [
+      "playwright_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07777777777777778,
+    "1": 0.1546218487394958,
+    "2": 0.09462365591397849,
+    "3": 0.1111111111111111,
+    "4": 0.11,
+    "5": 0.1225296442687747,
+    "6": 0.20346320346320346,
+    "7": 0.09523809523809523,
+    "8": 0.1,
+    "9": 0.18095238095238095,
+    "10": 0.14285714285714285,
+    "11": 0.2222222222222222,
+    "12": 0.6666666666666666,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0
+  },
+  "gods": [
+    {
+      "id": "backend_src_main_java_com_ansh_bank_common_config_seeddata_seeddata",
+      "label": "SeedData",
+      "degree": 29
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_beneficiary_service_beneficiaryservice_beneficiaryservice",
+      "label": "BeneficiaryService",
+      "degree": 11
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_card_service_cardservice_cardservice",
+      "label": "CardService",
+      "degree": 10
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_support_service_supportservice_supportservice",
+      "label": "SupportService",
+      "degree": 10
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_auth_service_authservice_authservice",
+      "label": "AuthService",
+      "degree": 9
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_common_security_jwtservice_jwtservice",
+      "label": "JwtService",
+      "degree": 9
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_transaction_service_transactionservice_transactionservice",
+      "label": "TransactionService",
+      "degree": 9
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_account_service_accountservice_accountservice",
+      "label": "AccountService",
+      "degree": 8
+    },
+    {
+      "id": "backend_src_main_java_com_ansh_bank_beneficiary_controller_beneficiarycontroller_beneficiarycontroller",
+      "label": "BeneficiaryController",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "AccountService",
+      "target": "SeedData",
+      "source_files": [
+        "backend/src/main/java/com/ansh/bank/account/service/AccountService.java",
+        "backend/src/main/java/com/ansh/bank/common/config/SeedData.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "AuthService",
+      "target": "SeedData",
+      "source_files": [
+        "backend/src/main/java/com/ansh/bank/auth/service/AuthService.java",
+        "backend/src/main/java/com/ansh/bank/common/config/SeedData.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "BeneficiaryService",
+      "target": "SeedData",
+      "source_files": [
+        "backend/src/main/java/com/ansh/bank/beneficiary/service/BeneficiaryService.java",
+        "backend/src/main/java/com/ansh/bank/common/config/SeedData.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "CardService",
+      "target": "SeedData",
+      "source_files": [
+        "backend/src/main/java/com/ansh/bank/card/service/CardService.java",
+        "backend/src/main/java/com/ansh/bank/common/config/SeedData.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "SupportService",
+      "target": "SeedData",
+      "source_files": [
+        "backend/src/main/java/com/ansh/bank/support/service/SupportService.java",
+        "backend/src/main/java/com/ansh/bank/common/config/SeedData.java"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

@@ -10,7 +10,7 @@ todos:
       - frontend/src/features/auth/auth.test.tsx
       - e2e/auth-dashboard.spec.ts
     verify: mvn -f pom.xml test -Dtest=AuthAccountApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/auth/auth.test.tsx
-    status: pending
+    status: done
   - id: transfers-beneficiaries
     content: Transfers and beneficiaries — add, verify, transfer, history
     files:
@@ -22,7 +22,7 @@ todos:
       - frontend/src/features/transfers/transfers.test.tsx
       - e2e/transfers-beneficiaries.spec.ts
     verify: mvn -f pom.xml test -Dtest=TransferBeneficiaryApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/transfers/transfers.test.tsx
-    status: pending
+    status: done
   - id: cards-support
     content: Cards, statements, and support — card controls, statement, tickets
     files:
@@ -35,4 +35,4 @@ todos:
       - frontend/src/features/cards/cards.test.tsx
       - e2e/cards-support-statements.spec.ts
     verify: mvn -f pom.xml test -Dtest=CardSupportApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/cards/cards.test.tsx
-    status: pending
+    status: done

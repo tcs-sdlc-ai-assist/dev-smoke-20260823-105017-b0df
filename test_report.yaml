@@ -1,0 +1,28 @@
+generated_at: '2026-08-23T11:06:00Z'
+summary: pass
+slices:
+  - id: auth-dashboard
+    verify: mvn -f pom.xml test -Dtest=AuthAccountApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/auth/auth.test.tsx
+    result: pass
+  - id: transfers-beneficiaries
+    verify: mvn -f pom.xml test -Dtest=TransferBeneficiaryApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/transfers/transfers.test.tsx
+    result: pass
+  - id: cards-support
+    verify: mvn -f pom.xml test -Dtest=CardSupportApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/cards/cards.test.tsx
+    result: pass
+layers:
+  backend_api:
+    command: mvn -f pom.xml test
+    result: pass
+    detail: 5 JUnit HTTP contract tests passed.
+  frontend_component:
+    command: cd frontend && node node_modules/vitest/vitest.mjs run
+    result: pass
+    detail: 3 component tests passed.
+  build:
+    command: mvn -f pom.xml package -DskipTests && cd frontend && node node_modules/vite/bin/vite.js build
+    result: pass
+  e2e:
+    command: cd frontend && node node_modules/@playwright/test/cli.js test --config=playwright.config.ts
+    result: pass
+    detail: 4 Playwright journeys passed against live Spring Boot and Vite servers; login test verifies real API requests.

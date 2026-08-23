@@ -1,0 +1,14 @@
+{
+  "tech_stack": "Java 17 / Spring Boot 3, React 18 / TypeScript / Vite, Axios, JUnit, Vitest, Playwright",
+  "codebase_path": ".",
+  "git_link": "",
+  "readme_path": "README.md",
+  "test_report_path": "test_report.yaml",
+  "tests_ran": true,
+  "unit_tests_passed": true,
+  "integration_tests_ran": false,
+  "api_tests_ran": true,
+  "e2e_tests_ran": true,
+  "commits_count": 1,
+  "run_mode": "greenfield"
+}
