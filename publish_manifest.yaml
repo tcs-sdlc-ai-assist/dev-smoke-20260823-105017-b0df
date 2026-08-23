@@ -1,4 +1,4 @@
-status: ready_to_push
+status: pushed
 repository: https://github.com/tcs-sdlc-ai-assist/dev-smoke-20260823-105017-b0df
 branch: main
-notes: Final verification includes backend APIs, frontend components, production build, and four live Playwright journeys.
+notes: Final verification passed before this publish: backend APIs, frontend components, production build, and four live Playwright journeys.
