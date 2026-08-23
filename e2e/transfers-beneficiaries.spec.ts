@@ -1,0 +1,1 @@
+import {test,expect} from '@playwright/test';test('customer can reach beneficiary management',async({page})=>{await page.goto('/');await page.getByRole('button',{name:/sign in/i}).click();await page.getByRole('button',{name:'Beneficiaries'}).click();await expect(page.getByText('Add beneficiary')).toBeVisible();});

@@ -1,0 +1,4 @@
+package com.ansh.bank.common.security;
+import java.io.IOException; import jakarta.servlet.*; import jakarta.servlet.http.*; import org.springframework.stereotype.Component;
+/** Reject protected API calls that do not include a valid bearer token. */
+@Component public class JwtAuthFilter implements Filter { private final JwtService jwt; public JwtAuthFilter(JwtService jwt){this.jwt=jwt;} /** Filter protected requests. */ public void doFilter(ServletRequest req,ServletResponse res,FilterChain chain)throws IOException,ServletException { HttpServletRequest r=(HttpServletRequest)req; if(!r.getRequestURI().startsWith("/api/")||r.getRequestURI().equals("/api/auth/login")||r.getRequestURI().equals("/api/health")){chain.doFilter(req,res);return;} String h=r.getHeader("Authorization"); if(h==null||!jwt.valid(h.replace("Bearer ",""))){((HttpServletResponse)res).sendError(401,"Authentication required");return;} chain.doFilter(req,res); } }

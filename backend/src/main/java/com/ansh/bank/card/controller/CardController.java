@@ -1,0 +1,3 @@
+package com.ansh.bank.card.controller;
+import java.util.*; import com.ansh.bank.card.dto.CardDtos.*; import com.ansh.bank.card.service.CardService; import org.springframework.web.bind.annotation.*;
+/** Expose card controls. */ @RestController @RequestMapping("/api/cards") public class CardController {private final CardService s; public CardController(CardService s){this.s=s;} /** List cards. */ @GetMapping public List<Response> all(){return s.all();} /** Block a card. */ @PostMapping("/{id}/block") public Response block(@PathVariable String id){return s.set(id,"BLOCKED");} /** Restore a card. */ @PostMapping("/{id}/unblock") public Response unblock(@PathVariable String id){return s.set(id,"ACTIVE");} }

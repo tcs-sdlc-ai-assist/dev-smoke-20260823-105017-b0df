@@ -1,0 +1,3 @@
+package com.ansh.bank.beneficiary.controller;
+import java.util.*; import com.ansh.bank.beneficiary.dto.BeneficiaryDtos.*; import com.ansh.bank.beneficiary.service.BeneficiaryService; import org.springframework.web.bind.annotation.*;
+/** Expose beneficiary management. */ @RestController @RequestMapping("/api/beneficiaries") public class BeneficiaryController {private final BeneficiaryService s; public BeneficiaryController(BeneficiaryService s){this.s=s;} /** List recipients. */ @GetMapping public List<Response> all(){return s.all();} /** Add a recipient. */ @PostMapping public Response add(@RequestBody CreateRequest r){return s.add(r);} /** Mark a recipient verified. */ @PostMapping("/{id}/verify") public Response verify(@PathVariable String id){return s.verify(id);} }

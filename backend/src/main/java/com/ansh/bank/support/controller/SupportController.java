@@ -1,0 +1,3 @@
+package com.ansh.bank.support.controller;
+import java.util.*; import com.ansh.bank.support.dto.SupportDtos.*; import com.ansh.bank.support.service.SupportService; import org.springframework.web.bind.annotation.*;
+/** Expose customer support tickets. */ @RestController @RequestMapping("/api/support/tickets") public class SupportController {private final SupportService s; public SupportController(SupportService s){this.s=s;} /** List tickets. */ @GetMapping public List<Response> all(){return s.all();} /** Open a ticket. */ @PostMapping public Response add(@RequestBody CreateRequest r){return s.add(r);} }

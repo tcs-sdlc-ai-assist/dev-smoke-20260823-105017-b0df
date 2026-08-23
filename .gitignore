@@ -1,0 +1,11 @@
+.engine/
+node_modules/
+dist/
+__pycache__/
+.venv/
+target/
+coverage/
+playwright-report/
+test-results/
+.env
+*.log

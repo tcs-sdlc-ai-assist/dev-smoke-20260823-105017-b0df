@@ -1,0 +1,3 @@
+package com.ansh.bank.auth.service;
+import com.ansh.bank.auth.dto.AuthDtos.*; import com.ansh.bank.common.config.SeedData; import com.ansh.bank.common.exception.ApiException; import com.ansh.bank.common.security.JwtService; import org.springframework.stereotype.Service;
+/** Authenticate the seeded development customer. */ @Service public class AuthService { private final SeedData data; private final JwtService jwt; public AuthService(SeedData d,JwtService j){data=d;jwt=j;} /** Verify credentials and issue an access token. */ public LoginResponse login(LoginRequest r){if(!data.validUser(r.email(),r.password()))throw new ApiException("Invalid email or password");return new LoginResponse(jwt.issue(r.email()),"Ansh Sharma");} }

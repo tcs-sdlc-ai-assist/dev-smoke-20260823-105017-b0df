@@ -1,0 +1,2 @@
+import type {ButtonHTMLAttributes,ReactNode} from 'react';
+/** Render a consistently styled action button. */ export function Button({children,...p}:ButtonHTMLAttributes<HTMLButtonElement>){return <button className="button" {...p}>{children}</button>;} /** Group content in a raised surface. */ export function Card({children}:{children:ReactNode}){return <section className="card">{children}</section>;} /** Display semantic state. */ export function Badge({children}:{children:ReactNode}){return <span className="badge" role="status">{children}</span>;}

@@ -1,0 +1,1 @@
+import {test,expect} from '@playwright/test';test('customer signs in and sees live accounts',async({page})=>{await page.goto('/');await page.getByRole('button',{name:/sign in/i}).click();await expect(page.getByText('Everyday account')).toBeVisible();});

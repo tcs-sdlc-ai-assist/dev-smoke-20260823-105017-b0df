@@ -1,0 +1,38 @@
+todos:
+  - id: auth-dashboard
+    content: Auth and dashboard — seeded login, JWT, account overview
+    files:
+      - backend/src/main/java/com/ansh/bank/auth/controller/AuthController.java
+      - backend/src/main/java/com/ansh/bank/account/controller/AccountController.java
+      - backend/src/test/java/com/ansh/bank/AuthAccountApiTest.java
+      - frontend/src/features/auth/LoginPage.tsx
+      - frontend/src/features/dashboard/DashboardPage.tsx
+      - frontend/src/features/auth/auth.test.tsx
+      - e2e/auth-dashboard.spec.ts
+    verify: mvn -f pom.xml test -Dtest=AuthAccountApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/auth/auth.test.tsx
+    status: pending
+  - id: transfers-beneficiaries
+    content: Transfers and beneficiaries — add, verify, transfer, history
+    files:
+      - backend/src/main/java/com/ansh/bank/transaction/controller/TransactionController.java
+      - backend/src/main/java/com/ansh/bank/beneficiary/controller/BeneficiaryController.java
+      - backend/src/test/java/com/ansh/bank/TransferBeneficiaryApiTest.java
+      - frontend/src/features/transfers/TransferPage.tsx
+      - frontend/src/features/beneficiaries/BeneficiariesPage.tsx
+      - frontend/src/features/transfers/transfers.test.tsx
+      - e2e/transfers-beneficiaries.spec.ts
+    verify: mvn -f pom.xml test -Dtest=TransferBeneficiaryApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/transfers/transfers.test.tsx
+    status: pending
+  - id: cards-support
+    content: Cards, statements, and support — card controls, statement, tickets
+    files:
+      - backend/src/main/java/com/ansh/bank/card/controller/CardController.java
+      - backend/src/main/java/com/ansh/bank/support/controller/SupportController.java
+      - backend/src/test/java/com/ansh/bank/CardSupportApiTest.java
+      - frontend/src/features/cards/CardsPage.tsx
+      - frontend/src/features/support/SupportPage.tsx
+      - frontend/src/features/statements/StatementsPage.tsx
+      - frontend/src/features/cards/cards.test.tsx
+      - e2e/cards-support-statements.spec.ts
+    verify: mvn -f pom.xml test -Dtest=CardSupportApiTest && cd frontend && node node_modules/vitest/vitest.mjs run src/features/cards/cards.test.tsx
+    status: pending

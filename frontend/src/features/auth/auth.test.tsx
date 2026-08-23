@@ -1,0 +1,1 @@
+import {render,screen} from '@testing-library/react';import {describe,it,expect,vi} from 'vitest';import LoginPage from './LoginPage';vi.mock('../../api/client',{api:{post:vi.fn()}});describe('login',()=>it('shows seeded credentials',()=>{render(<LoginPage onLogin={()=>{}}/>);expect(screen.getByText(/demo@ansh.bank/)).toBeTruthy()}));

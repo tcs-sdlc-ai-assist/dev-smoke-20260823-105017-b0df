@@ -1,0 +1,238 @@
+{
+  "config": {
+    "argv": [
+      "/usr/bin/node",
+      "/c/Users/Radheya/Desktop/sdlc_core/mkt-nxs-project/sdlc-api/scripts/developer_smoke_out/developer_smoke/dev-smoke-20260823-105017-b0df/developer/frontend/node_modules/@playwright/test/cli.js",
+      "test",
+      "--config=playwright.config.ts"
+    ],
+    "configFile": "/c/Users/Radheya/Desktop/sdlc_core/mkt-nxs-project/sdlc-api/scripts/developer_smoke_out/developer_smoke/dev-smoke-20260823-105017-b0df/developer/frontend/playwright.config.ts",
+    "rootDir": "/c/Users/Radheya/Desktop/sdlc_core/mkt-nxs-project/sdlc-api/scripts/developer_smoke_out/developer_smoke/dev-smoke-20260823-105017-b0df/developer/frontend/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/c/Users/Radheya/Desktop/sdlc_core/mkt-nxs-project/sdlc-api/scripts/developer_smoke_out/developer_smoke/dev-smoke-20260823-105017-b0df/developer/frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/c/Users/Radheya/Desktop/sdlc_core/mkt-nxs-project/sdlc-api/scripts/developer_smoke_out/developer_smoke/dev-smoke-20260823-105017-b0df/developer/frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "../e2e-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth-dashboard.spec.ts",
+      "file": "auth-dashboard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "customer signs in through the live API and sees account data",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 672,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-23T11:06:03.474Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "052a9e210c7d6dda09a9-2cb926a346147c9b8986",
+          "file": "auth-dashboard.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "cards-support-statements.spec.ts",
+      "file": "cards-support-statements.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "customer blocks a card through the live backend",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 677,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-23T11:06:04.407Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f660d2bd9e43a5f940a-6722fb59e5c8d82afb12",
+          "file": "cards-support-statements.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "customer can raise a support ticket and see it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 694,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-23T11:06:05.110Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5f660d2bd9e43a5f940a-76e3b8fd6a089b289259",
+          "file": "cards-support-statements.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "transfers-beneficiaries.spec.ts",
+      "file": "transfers-beneficiaries.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "customer opens beneficiary management over live APIs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-23T11:06:05.828Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1f88e46279ea879f862a-5fce185bb02b720808d0",
+          "file": "transfers-beneficiaries.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-23T11:06:02.318Z",
+    "duration": 4288.498,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

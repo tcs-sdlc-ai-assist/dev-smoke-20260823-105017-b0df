@@ -1,0 +1,3 @@
+package com.ansh.bank.transaction.controller;
+import java.util.*; import com.ansh.bank.transaction.dto.TransactionDtos.*; import com.ansh.bank.transaction.service.TransactionService; import org.springframework.web.bind.annotation.*;
+/** Expose transfer creation and transaction history. */ @RestController @RequestMapping("/api/transactions") public class TransactionController {private final TransactionService s; public TransactionController(TransactionService s){this.s=s;} /** List recent movements. */ @GetMapping public List<Response> all(){return s.all();} /** Submit a transfer. */ @PostMapping("/transfer") public Response transfer(@RequestBody TransferRequest r){return s.transfer(r);} }

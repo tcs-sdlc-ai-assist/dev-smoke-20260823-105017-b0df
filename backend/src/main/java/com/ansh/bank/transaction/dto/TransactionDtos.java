@@ -1,0 +1,2 @@
+package com.ansh.bank.transaction.dto;
+import java.math.BigDecimal; import java.time.LocalDateTime; /** Group transfer transport records. */ public final class TransactionDtos { private TransactionDtos(){} /** Carry a transfer instruction. */ public record TransferRequest(String accountId,String beneficiaryId,BigDecimal amount,String reference){} /** Describe a movement. */ public record Response(String id,String description,BigDecimal amount,String direction,LocalDateTime date){} }

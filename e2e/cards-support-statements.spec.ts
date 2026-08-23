@@ -1,0 +1,1 @@
+import {test,expect} from '@playwright/test';test('customer can manage a card',async({page})=>{await page.goto('/');await page.getByRole('button',{name:/sign in/i}).click();await page.getByRole('button',{name:'Cards'}).click();await expect(page.getByRole('button',{name:/Block card/i})).toBeVisible();});
